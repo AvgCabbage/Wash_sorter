@@ -10,9 +10,10 @@ clear
 #check if arguments are given
 if [ $# -eq 0 ];then
 	printf "\nMust specify options"
-	printf "\n-f   input file"
+	printf "\n-f   output file"
 	printf "\n-i   interface"
 	printf "\n-t   timeout (ie. 10s)"
+	printf "\n"
 	exit 0
 fi
 
